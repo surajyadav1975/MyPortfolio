@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Header() {
+function header() {
   return (
     <header className="text-white flex justify-center items-center mt-12 mb-12">
         <div id="mobile-menu" className="flex w-96 justify-around items-center border rounded-full border-gray-600">
@@ -25,4 +25,4 @@ function Header() {
   )
 }
 
-export default Header
+export default header
