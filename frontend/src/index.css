@@ -140,3 +140,28 @@ body {
     transform: translate(0px, 0px);
   }
 }
+
+@media (max-width: 1282px) {
+  body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media (max-width: 770px) {
+  body {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media (max-width: 550px) {
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
