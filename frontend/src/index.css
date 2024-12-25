@@ -153,6 +153,11 @@ body {
     margin-right: 10%;
   }
 }
+@media (max-width: 850px) {
+  .anime{
+    display: none;
+  }
+}
 @media (max-width: 770px) {
   body {
     margin-left: 10%;
@@ -163,5 +168,8 @@ body {
   body {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .anime{
+    display: none;
   }
 }

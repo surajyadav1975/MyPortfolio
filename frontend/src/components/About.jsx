@@ -4,9 +4,9 @@ import { EnvelopeIcon} from '@heroicons/react/24/solid'
 function About() {
   return (
     <div className='text-white gap-5 border-t border-gray-600 pt-12 mb-16'>
-        <div className='-z-10 color1 w-96 h-96 opacity-60 blur-3xl shadow-2xl shadow-sky-500 left-96 bg-sky-500 absolute'></div>
-        <div className='-z-10 color2 w-96 h-96 opacity-60 blur-3xl shadow-2xl shadow-blue-500 scale-125 right-96 bg-blue-500 absolute'></div>
-        <div className='-z-10 color3 w-96 h-96 opacity-60 blur-3xl shadow-2xl shadow-sky-500 right-96 bg-sky-500 absolute'></div>
+        <div className='-z-10 anime color1 w-96 h-96 opacity-60 blur-3xl shadow-2xl shadow-sky-500 left-96 bg-sky-500 absolute'></div>
+        <div className='-z-10 anime color2 w-96 h-96 opacity-60 blur-3xl shadow-2xl shadow-blue-500 scale-125 right-96 bg-blue-500 absolute'></div>
+        <div className='-z-10 anime color3 w-96 h-96 opacity-60 blur-3xl shadow-2xl shadow-sky-500 right-96 bg-sky-500 absolute'></div>
         <div className='flex justify-center  items-center gap-5'>
         <div className='w-24 h-24 rounded-full overflow-hidden border border-white '>
             <img src="/images/photo.png" alt="my-photo" className='w-full h-full rounded-full'/>

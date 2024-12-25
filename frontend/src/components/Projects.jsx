@@ -106,8 +106,8 @@ function Project() {
 
   return (
     <div className="min-h-screen text-white border-t border-gray-600 pt-12 mb-16">
-        <div className='-z-10 color4 w-96 h-96 opacity-70 opacity-30 blur-3xl shadow-2xl shadow-sky-500 scale-150 left-96 bg-sky-500 absolute'></div>
-        <div className='-z-10 color5 w-96 h-96 opacity-70 opacity-30 blur-3xl shadow-2xl shadow-blue-500 scale-125 left-96 bg-blue-500 absolute'></div>
+        <div className='-z-10 color4 anime w-96 h-96 opacity-70 opacity-30 blur-3xl shadow-2xl shadow-sky-500 scale-150 left-96 bg-sky-500 absolute'></div>
+        <div className='-z-10 color5 anime w-96 h-96 opacity-70 opacity-30 blur-3xl shadow-2xl shadow-blue-500 scale-125 left-96 bg-blue-500 absolute'></div>
         <div className='flex justify-between'>
         <h2 className="text-xl font-semibold mb-2 ml-3">My Skills</h2>
 
