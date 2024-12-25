@@ -3,74 +3,86 @@ import { ChevronLeftIcon} from '@heroicons/react/24/solid'
 
 const projects = [
   {
+    name: "Social Networking Platform",
+    description:
+    "A platform for users to create profiles, share posts, and interact with others. Features include user authentication, post liking, and following functionality.",
+    images: ["/images/social-project1.png", "/images/social-project2.png", "/images/social-project3.png"],
+    techStack: ["React JS", "Node JS", "Express JS", "MongoDB","Tailwind CSS"],
+    liveDemo: "https://social-media-networking-application.vercel.app/",
+    github: "https://github.com/surajyadav1975/Social-media-networking-application",
+    category: "MERN"
+  },
+  {
     name: "E-commerce Website",
     description:
       "An online shopping platform with product listing, cart, and admin features. Built using MERN stack for a seamless user experience.",
     images: ["/images/scatch1.png", "/images/scatch2.png"],
-    techStack: ["React", "Express", "MongoDB", "Tailwind CSS"],
-    liveDemo: "https://live-demo-ecommerce.com",
-    github: "https://github.com/username/project2",
+    techStack: ["React JS", "Node JS", "Express JS", "MongoDB","Tailwind CSS"],
+    liveDemo: "https://backend-project-fxgs.onrender.com/",
+    github: "https://github.com/surajyadav1975/Clothing-Brand",
+    category: "MERN"
   },
   {
-    name: "Social Networking Platform",
+    name: "GraphPath Visualizer",
     description:
-      "A platform for users to create profiles, share posts, and interact with others. Features include user authentication, post liking, and following functionality.",
-    images: ["/images/social-project1.png", "/images/social-project2.png", "/images/social-project3.png"],
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
-    liveDemo: "https://live-demo-link.com",
-    github: "https://github.com/username/project1",
-  },
-  {
-    name: "E-commerce Website",
-    description:
-      "An online shopping platform with product listing, cart, and admin features. Built using MERN stack for a seamless user experience.",
+      "This project visualizes the working of graph traversal algorithms like BFS and Dijkstra, demonstrating the shortest path finding in a grid. The animation shows how the algorithms explore nodes, highlighting the path from the starting node to the destination. It allows users to interact with the grid by selecting custom start and end points",
     images: [ "/images/graph3.png","/images/graph4.png","/images/graph1.png","/images/graph2.png"],
-    techStack: ["React", "Express", "MongoDB", "Tailwind CSS"],
-    liveDemo: "https://live-demo-ecommerce.com",
-    github: "https://github.com/username/project2",
+    techStack: ["React JS", "JavaScript", "DSA", "BootStrap"],
+    liveDemo: "https://dsa-projects-mu.vercel.app/",
+    github: "https://github.com/surajyadav1975/dsa-projects",
+    category: "DSA"
   },
   {
-    name: "E-commerce Website",
+    name: "Sundown Studio",
     description:
-      "An online shopping platform with product listing, cart, and admin features. Built using MERN stack for a seamless user experience.",
+      "Sundown is a frontend-only web application built using React, showcasing a variety of frontend skills. It incorporates smooth animations and eye-catching effects, demonstrating a polished user interface with modern design techniques. ",
     images: ["/images/sundown1.png","/images/sundown2.png", "/images/sundown3.png", "/images/sundown4.png"],
-    techStack: ["React", "Express", "MongoDB", "Tailwind CSS"],
-    liveDemo: "https://live-demo-ecommerce.com",
-    github: "https://github.com/username/project2",
+    techStack: ["React JS", "GSAP"],
+    liveDemo: "https://web-dev-projects-olive.vercel.app/",
+    github: "https://github.com/surajyadav1975/HTML-CSS-Projects",
+    category: "Frontend"
   },
   {
-      name: "E-commerce Website",
+      name: "Sorting Visualizer",
     description:
-      "An online shopping platform with product listing, cart, and admin features. Built using MERN stack for a seamless user experience.",
+      "SortingVisualizer allows users to see animated visualizations of various sorting algorithms, including Quick Sort, Merge Sort, and Bubble Sort. It features options to adjust the speed and the number of array elements for dynamic demonstrations.",
     images: ["/images/sorting1.png", "/images/sorting2.png"],
-    techStack: ["React", "Express", "MongoDB", "Tailwind CSS"],
-    liveDemo: "https://live-demo-ecommerce.com",
-    github: "https://github.com/username/project2",
+    techStack: ["React JS", "JavaScript", "DSA", "BootStrap"],
+    liveDemo: "https://dsa-projects-iwk6.vercel.app/",
+    github: "https://github.com/surajyadav1975/dsa-projects",
+    category: "DSA"
   },
   {
-      name: "E-commerce Website",
+      name: "StudySync",
       description:
-      "An online shopping platform with product listing, cart, and admin features. Built using MERN stack for a seamless user experience.",
+      "StudySync is a React-based frontend web app designed to enhance the learning experience. It showcases skills in React with a focus on user-friendly design and engaging UI elements.",
     images: ["/images/studysync.png","/images/studysync2.png", "/images/studysync3.png"],
-    techStack: ["React", "Express", "MongoDB", "Tailwind CSS"],
-    liveDemo: "https://live-demo-ecommerce.com",
-    github: "https://github.com/username/project2",
+    techStack: ["React JS", "BootStrap"],
+    liveDemo: "https://html-css-projects-2.vercel.app/",
+    github: "https://github.com/surajyadav1975/HTML-CSS-Projects",
+    category: "Frontend"
 },
 {
-  name: "E-commerce Website",
+  name: "Myntra Clone",
   description:
-    "An online shopping platform with product listing, cart, and admin features. Built using MERN stack for a seamless user experience.",
+    "MyntraClone is a React-based frontend replica of the Myntra e-commerce site, featuring product listings, an add-to-cart functionality, and a dedicated cart page. It demonstrates frontend skills with interactive UI elements and responsive design.",
   images: ["/images/myntra1.png", "/images/myntra2.png"],
-  techStack: ["React", "Express", "MongoDB", "Tailwind CSS"],
-  liveDemo: "https://live-demo-ecommerce.com",
-  github: "https://github.com/username/project2",
+  techStack: ["React JS", "JavaScript", "Bootstrap","HTML","CSS"],
+  liveDemo: "https://myntra-seven-woad.vercel.app",
+  github: "https://github.com/surajyadav1975/react-repo",
+  category: "Frontend"
 },
 ];
 
 function Project() {
+  const [selectedCategory, setSelectedCategory] = useState('All');
+  
+    const filteredprojects = selectedCategory === 'All' 
+      ? projects 
+      : projects.filter((project) => (project.category === selectedCategory));
   // Track the current slide index for each project
   const [currentSlides, setCurrentSlides] = useState(
-    projects.map(() => 0) // Initialize with 0 for all projects
+    filteredprojects.map(() => 0) // Initialize with 0 for all projects
   );
 
   const handleNext = (index) => {
@@ -93,17 +105,39 @@ function Project() {
   };
 
   return (
-    <div className="min-h-screen text-white p-8 border-t border-gray-600 pt-12 mt-12">
+    <div className="min-h-screen text-white border-t border-gray-600 pt-12 mb-16">
         <div className='-z-10 color4 w-96 h-96 opacity-70 opacity-30 blur-3xl shadow-2xl shadow-sky-500 scale-150 left-96 bg-sky-500 absolute'></div>
         <div className='-z-10 color5 w-96 h-96 opacity-70 opacity-30 blur-3xl shadow-2xl shadow-blue-500 scale-125 left-96 bg-blue-500 absolute'></div>
-      <h1 className="text-xl font-semibold mb-2 ml-3">Projects</h1>
+        <div className='flex justify-between'>
+        <h2 className="text-xl font-semibold mb-2 ml-3">My Skills</h2>
+
+        <div className="mb-4">
+          <select 
+            id="category"
+            value={selectedCategory}
+            onChange={(e) => setSelectedCategory(e.target.value)} 
+            className="bg-black"
+            style={{
+              paddingRight: '8px',
+              paddingTop:'1px',
+              paddingBottom:'1px',
+              backgroundSize: '16px', 
+            }}
+          >
+            <option value="All">All</option>
+            <option value="MERN">MERN</option>
+            <option value="Frontend">Frontend</option>
+            <option value="DSA">DSA</option>
+          </select>
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {projects.map((project, index) => (
+        {filteredprojects.map((project, index) => (
           <div
             key={index}
             className="rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transform transition-all duration-300 border border-gray-600 overflow-hidden flex flex-col border-2 border-zinc-400"
           >
-            <div className="relative w-full h-72 overflow-hidden">
+            <div className="relative w-full h-80 overflow-hidden">
               <img
                 src={project.images[currentSlides[index]]}
                 alt={`Slide ${currentSlides[index]}`}

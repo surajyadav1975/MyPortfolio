@@ -18,19 +18,19 @@ function Education() {
         logo: "/images/school12.png", 
         marks: "Percentage : 90%"
       },
-      {
-        date: "2020 - 2021",
-        institution: "S.B.V (Jai Prakash Narayan) East Vinod Nagar Delhi",
-        degree: "Class X",
-        logo: "/images/school12.png", 
-        marks: "Percentage : 81%"
-      },
+      // {
+      //   date: "2020 - 2021",
+      //   institution: "S.B.V (Jai Prakash Narayan) East Vinod Nagar Delhi",
+      //   degree: "Class X",
+      //   logo: "/images/school12.png", 
+      //   marks: "Percentage : 81%"
+      // },
     ];
     
     const [activeTab, setActiveTab] = useState("Studies");
     
       return (
-        <div className="text-white border-t border-gray-600 pt-12">
+        <div className="text-white border-t border-gray-600 pt-12 mb-16">
 
           <div className="flex justify-around">
             <button
@@ -78,7 +78,7 @@ function Education() {
           )}
     
           {activeTab === "Work" && (
-            <div className="mt-3 space-y-4 border-2 border-zinc-400 rounded-lg w-full h-64 flex justify-center items-center">
+            <div className="mt-3 space-y-4 border border-gray-600 rounded-lg w-full h-64 flex justify-center items-center">
               <p className="text-gray-400 animate-bounce">No work experience yet!</p>
             </div>
           )}

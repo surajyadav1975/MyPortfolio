@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-gradient-to-r from-black via-gray-800 to-black p-8 text-white mt-12 border-t border-gray-600">
+    <footer className="relative overflow-hidden bg-gradient-to-r from-black via-gray-800 to-black p-8 text-white mt-12 border-t border-b border-gray-600">
       {/* Background animation */}
       <div className="absolute inset-0 animate-gradient-bg opacity-30"></div>
 
@@ -19,7 +19,7 @@ function Footer() {
           <ul className="space-y-1 text-gray-300">
             <li>
               <a
-                href="#home"
+                href="/"
                 className="hover:text-white transition-colors"
               >
                 Home
@@ -27,7 +27,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#about"
+                href="/about"
                 className="hover:text-white transition-colors"
               >
                 About
@@ -35,7 +35,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="#projects"
+                href="/project"
                 className="hover:text-white transition-colors"
               >
                 Projects
@@ -50,7 +50,9 @@ function Footer() {
           <ul className="space-y-1 text-gray-300">
             <li>
               <a
-                href="mailto:ysuraj1191@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=ysuraj1191@gmail.com&su=Hello%20Suraj"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="hover:text-white transition-colors"
               >
                 Email
@@ -78,7 +80,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/suraj_yadav_1975tk/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors"
