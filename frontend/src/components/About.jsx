@@ -9,7 +9,7 @@ function About() {
         <div className='-z-10 color3 w-96 h-96 opacity-60 blur-3xl shadow-2xl shadow-sky-500 right-96 bg-sky-500 absolute'></div>
         <div className='flex justify-center  items-center gap-5'>
         <div className='w-24 h-24 rounded-full overflow-hidden border border-white '>
-            <img src="./photo.png" alt="my-photo" className='w-full h-full rounded-full'/>
+            <img src="/images/photo.png" alt="my-photo" className='w-full h-full rounded-full'/>
         </div>
         <div class="space-y-1">
             <h1 class="font-semibold text-xl tracking-tighter sm:text-2xl">Hey, I'm Suraj Yadav👋
