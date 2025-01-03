@@ -6,7 +6,7 @@ const projects = [
     name: "Social Networking Platform",
     description:
     "A platform for users to create profiles, share posts, and interact with others. Features include user authentication, post liking, and following functionality.",
-    images: ["/images/social-project1.png", "/images/social-project2.png", "/images/social-project3.png"],
+    images: ["/images/social-project1.png", "/images/social-project2.png", "/images/social-project3.png", "/images/social-project4.png", "/images/social-project5.png"],
     techStack: ["React JS", "Node JS", "Express JS", "MongoDB","Tailwind CSS"],
     liveDemo: "https://social-media-networking-application.vercel.app/",
     github: "https://github.com/surajyadav1975/Social-media-networking-application",
@@ -23,19 +23,19 @@ const projects = [
     category: "MERN"
   },
   {
-    name: "GraphPath Visualizer",
+    name: "Sorting Visualizer",
     description:
-      "This project visualizes the working of graph traversal algorithms like BFS and Dijkstra, demonstrating the shortest path finding in a grid. The animation shows how the algorithms explore nodes, highlighting the path from the starting node to the destination. It allows users to interact with the grid by selecting custom start and end points",
-    images: [ "/images/graph3.png","/images/graph4.png","/images/graph1.png","/images/graph2.png"],
+    "SortingVisualizer allows users to see animated visualizations of various sorting algorithms, including Quick Sort, Merge Sort, and Bubble Sort. It features options to adjust the speed and the number of array elements for dynamic demonstrations.",
+    images: ["/images/sorting1.png", "/images/sorting2.png"],
     techStack: ["React JS", "JavaScript", "DSA", "BootStrap"],
-    liveDemo: "https://dsa-projects-mu.vercel.app/",
+    liveDemo: "https://dsa-projects-iwk6.vercel.app/",
     github: "https://github.com/surajyadav1975/dsa-projects",
     category: "DSA"
   },
   {
     name: "Sundown Studio",
     description:
-      "Sundown is a frontend-only web application built using React, showcasing a variety of frontend skills. It incorporates smooth animations and eye-catching effects, demonstrating a polished user interface with modern design techniques. ",
+    "Sundown is a frontend-only web application built using React, showcasing a variety of frontend skills. It incorporates smooth animations and eye-catching effects, demonstrating a polished user interface with modern design techniques. ",
     images: ["/images/sundown1.png","/images/sundown2.png", "/images/sundown3.png", "/images/sundown4.png"],
     techStack: ["React JS", "GSAP"],
     liveDemo: "https://web-dev-projects-olive.vercel.app/",
@@ -43,12 +43,12 @@ const projects = [
     category: "Frontend"
   },
   {
-      name: "Sorting Visualizer",
+    name: "GraphPath Visualizer",
     description:
-      "SortingVisualizer allows users to see animated visualizations of various sorting algorithms, including Quick Sort, Merge Sort, and Bubble Sort. It features options to adjust the speed and the number of array elements for dynamic demonstrations.",
-    images: ["/images/sorting1.png", "/images/sorting2.png"],
+      "This project visualizes the working of graph traversal algorithms like BFS and Dijkstra, demonstrating the shortest path finding in a grid. The animation shows how the algorithms explore nodes, highlighting the path from the starting node to the destination. It allows users to interact with the grid by selecting custom start and end points",
+    images: [ "/images/graph3.png","/images/graph4.png","/images/graph1.png","/images/graph2.png"],
     techStack: ["React JS", "JavaScript", "DSA", "BootStrap"],
-    liveDemo: "https://dsa-projects-iwk6.vercel.app/",
+    liveDemo: "https://dsa-projects-mu.vercel.app/",
     github: "https://github.com/surajyadav1975/dsa-projects",
     category: "DSA"
   },
